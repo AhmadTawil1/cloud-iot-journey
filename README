@@ -32,7 +32,7 @@ Throughout the journey, I’ll publish weekly progress on GitHub and share proje
 cloud-iot-journey/
 │
 ├── week1/
-│   ├── hello_cloud.py           # Simple demo: print “Hello Cloud” message
+│   ├── test_colab.py           # Simple demo: using colab
 │   ├── lecture1_notes.md        # Notes from Lecture 1 (Intro + JSON + Cloud types)
 │   ├── notes.md                 # Definitions + key concepts (IaaS/PaaS/SaaS)
 │   ├── reflection.md            # Summary of Week 1 learning and next steps

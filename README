@@ -32,11 +32,24 @@ Throughout the journey, I’ll publish weekly progress on GitHub and share proje
 cloud-iot-journey/
 │
 ├── week1-intro-to-cloud/
-│   ├── test_colab.py           # Simple demo: using colab
+│   ├── test_colab.py                           # Simple demo: using Colab
 │   ├── Cloud_Service_Models_Detailed_Explanation.md
 │   ├── JSON_Explained.md
 │
-└── README.md                    # Course overview + goals + structure
-```
+├── week2-iot-basics/
+│   ├── mqtt_demo/
+│   │   ├── sensor_publisher.py                 # Publishes random temperature readings
+│   │   ├── subscriber.py                       # Subscribes & prints sensor messages
+│   │   └── mqtt_test_notes.md                  # Tutorial notes and broker test results
+│   │
+│   ├── iot_cloud_flow.png                      # Data flow diagram (IoT → MQTT → Firebase)
+│   ├── mqtt-sensor-demo.ipynb                  # Combined publisher/subscriber Jupyter notebook
+│   ├── plots/
+│   │   └── sensor_data.png                     # Visualization of latest readings
+│   │
+│   ├── firebase_stream_plot.ipynb              # Reads + plots Firebase live data
+│   ├── firebase_integration.md                 # Setup steps + SDK guide + troubleshooting
+│   └── Reflection_Week2_IoT_Lessons.md         # “What I Learned Building My First IoT Connection”
+│
+└── README.md                                   # Course overview + goals + structure
 
-**Next:** *Week 2 – IoT Basics & Data Flow with Firebase and Sensors*
